@@ -6,3 +6,13 @@ h2{
     font-size: 32px;
     color:rgb(29, 10, 63);
 }
+.cpf li:nth-child(odd){
+    background-color: red;
+    display: inline-block;
+
+}
+.cpf li{
+    list-style: none;
+    padding: 10px;
+    border-radius: 20px;
+}
