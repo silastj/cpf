@@ -45,3 +45,12 @@ const subsCPFS = (cpfsElements) => {
 
 }
 subsCPFS(cpfList);
+
+// VALIDAR CPFS E CNPJ
+
+import ValidarCpf from './validar-cpf.js';
+
+const cpf = document.querySelector('#cpf');
+const validarCpf = new ValidarCpf(cpf);
+
+console.log(validarCpf.construir('123456789000110'));
