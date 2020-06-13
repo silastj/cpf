@@ -49,3 +49,11 @@ input::placeholder{
     padding: 50px;
     border-radius: 4px;
 }
+.erro-text{
+    display: none;
+}
+.erro-text.ativar{
+    display: block;
+    font-size: .875em;
+    color: red;
+}
